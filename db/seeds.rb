@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# t.string "first_name"
+# t.string "last_name"
+# t.integer "grade"
+# t.datetime "created_at", precision: 6, null: false
+# t.datetime "updated_at", precision: 6, null: false
+
+puts "new seed 🌱"
+s1 = Student.create(first_name:"Dwayne", last_name:"Johnson", grade:"99")
